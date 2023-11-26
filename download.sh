@@ -31,6 +31,9 @@ copyright=$(echo "${copyright}" | sed 's/ //g')
 # 删除右括号 )
 copyright=$(echo "${copyright}" | sed 's/)//g')
 
+# 删除问号
+copyright=$(echo "${copyright}" | sed 's/?//g')
+
 # 替换 (  / + 为下划线
 copyright=$(echo "${copyright}" | sed 's/[(\/+]/_/g')
 
