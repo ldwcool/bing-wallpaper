@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 定义远程仓库地址
-REMOTE_REPO_URL="git@gitee.com:ldwcool/bing-wappler.git"
+REMOTE_REPO_URL="git@github.com:ldwcool/bing-wappler.git"
 
 # 进入脚本所在目录
 cd "$(dirname "$0")"
